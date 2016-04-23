@@ -1,1 +1,167 @@
-h1
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js">
+        $(function() {
+            $('#Banner').click(function() {
+
+                $("body").css("background-color");
+                $("legend").css("background-color");
+                $("fieldset").slideUp("slow"); // this will make the fieldset to go up when you press"make banner"
+                var firstName = $("#secondName").val();
+                var last = firstName;
+                $('div').html(last);
+                var userTheme = $("input[name=theme]:checked").val(); // this will make the text color change
+                $('div').css("color", userTheme);
+
+            });
+        });
+
+        // $(function() {
+        //     $('span').hover(
+        //         function() {
+        //             $(this).css("font-size", "22px");
+
+        //         },
+        //         function() {
+        //             $(this).css("font-size", "22px");
+        //         }
+
+        //     );
+
+
+
+        // });
+    </script>
+    <style>
+       html, body {
+            /*the style for the div box */
+            text-align: center;
+            font-family: 'Lobster Two', cursive;
+            font-size: 22px;
+            background-color:#FFE3DD;
+            color: 'div';
+            padding: 5px;
+           
+        }
+        
+        span {
+            font-family: 'Lobster Two', cursive;
+        }
+        /*the legend border*/
+        
+        fieldset {
+            font-size: 24px;
+            font-family: 'Lobster Two', cursive;
+            color: #52143d;
+            display: block;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding-top: 1.55em;
+            padding-bottom: 1.825em;
+            padding-left: 1.95em;
+            padding-right: 1.95em;
+            border: 10px groove;
+        }
+        h1{
+             font-family: 'Lobster Two', cursive;
+            font-size: 28px;
+            color: #9CABCC;
+        }
+        h2 {
+            font-family: 'Lobster Two', cursive;
+            font-size: 28px;
+            color: #9CABCC;
+        }
+        
+      
+    </style>
+
+
+
+
+    </script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <!--start of nav-->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+            </div>
+            <div>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">SEP-GUIDE</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav" class="nav nav-tabs">
+                    <li class="tabs--">
+                        <a data-toggle="tab" href="#Home"> <span class="glyphicon glyphicon-home"></span> Home</a>
+                    </li>
+                    <li class="tabs--">
+                        <!--This is where the dropdown begins-->
+                        <a dropdown-toggle="tab" d="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="#Students"> <span class="glyphicon glyphicon-education"></span> Students</a>
+                        <!--<span class="caret"></span>-->
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownmenu">
+                            <li><a data-toggle="tab" href="#Tips">Tips</a></li>
+                            <li><a data-toggle="tab" href="#Opportunities">Opportunities</a></li>
+                            <li><a data-toggle="tab" href="#Test">Testimonials</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a data-toggle="tab" href="#PicturesSEP">Pictures of SEP</a></li>
+                        </ul>
+                        <!--this is where the drop down ends-->
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#Parents"> <span class="glyphicon glyphicon-apple"></span> Parents</a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#Administrators"> <span class="glyphicon glyphicon-file"></span>Adminisrators</a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#Projects"> <span class="glyphicon glyphicon-book"></span>Projects</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <!--<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>-->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--End of Nav bar-->
+    <!-- <div class="container">-->
+    <!--<div class="container-fluid">-->
+
+    <!--  <div class="tab-content">-->
+    <!--    <div id="Home" class="tab-pane fade in active">-->
+    <!--      <p class="descrip" id="fun"> Fun for Everyone Come make a new memory with us. There's nothing else like it. Fun for both adults and kids. All are welcome! Afraid of heights? You won't be after you slow-dance with the sky.-->
+    <!--      </p>-->
+    <!--    </div>-->
+    <h1>The experince of a Software student in HSTAT</h1>
+    <H2> Throughout this guide you will learn tips and opportunities HSTAT gives you. You will also see Testimonials from some of our classmates </H2>
+
+
+
+
+
+</body>
+
+</html>
