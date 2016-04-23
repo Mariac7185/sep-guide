@@ -17,32 +17,22 @@
 
                 $("body").css("background-color");
                 $("legend").css("background-color");
-                $("fieldset").slideUp("slow"); // this will make the fieldset to go up when you press"make banner"
-                var firstName = $("#secondName").val();
-                var last = firstName;
-                $('div').html(last);
-                var userTheme = $("input[name=theme]:checked").val(); // this will make the text color change
-                $('div').css("color", userTheme);
-
+                $("#home").slideUp("slow"); // this will make the fieldset to go up when you press"make banner"
+               
             });
         });
+         $(function() {
+      $('span').hover(
+        function() {
+          $(this).css("font-size", "58px");
 
-        // $(function() {
-        //     $('span').hover(
-        //         function() {
-        //             $(this).css("font-size", "22px");
+        },
+        function() {
+          $(this).css("font-size", "22px");
+        }
 
-        //         },
-        //         function() {
-        //             $(this).css("font-size", "22px");
-        //         }
-
-        //     );
-
-
-
-        // });
-    </script>
+      );
+      </script>
     <style>
         html,
         body {
@@ -54,7 +44,10 @@
             color: 'div';
             padding: 5px;
         }
-        
+        div{
+            background-color:#CCA59D;
+            
+        }
         span {
             font-family: 'Lobster Two', cursive;
         }
@@ -73,6 +66,7 @@
             padding-right: 1.95em;
             border: 10px groove;
         }
+        
         
         h1 {
             font-family: 'Lobster Two', cursive;
@@ -155,14 +149,43 @@
     <!--      <p class="descrip" id="fun"> Fun for Everyone Come make a new memory with us. There's nothing else like it. Fun for both adults and kids. All are welcome! Afraid of heights? You won't be after you slow-dance with the sky.-->
     <!--      </p>-->
     <!--    </div>-->
-    <span style="color:#9CABCC">The </span><span style="color:#9CABCC">experince  </span><span style="color:#9CABCC">of </span><span style="color:#9CABCC">a </span><span style="color:#9CABCC">Software</span><span style="color:#9CABCC">Student</span>
-    <span
-    style="color:#9CABCC">in </span><span style="color:#9CABCC">HSTAT</span>
+    <span style="color:#B29089">The </span><span style="color:#B29089">experince  </span><span style="color:#B29089">of </span><span style="color:#B29089">a </span><span style="color:#B29089">Software</span><span style="color:#B29089">Student</span>
+    <span style="color:#B29089">in </span><span style="color:#B29089">HSTAT</span>
 
         <h1> Throughout this guide you will learn tips and opportunities HSTAT gives you. You will also see Testimonials from some of our classmates </h1>
-        <h2>You'll learn how to embedded a portfolio, Collaborate with your partners,<span style="color:#9CABCC"> L</Span>earn <span style="color:#9CABCC">O</Span>n <span style="color:#9CABCC">Y</span>our <span style="color:#9CABCC">O</span>wn (LOYO)</h2>
+        <h2>You'll learn how to embedded a portfolio, Collaborate with your partners,<span style="color:#929CB2"> L</Span>earn <span style="color:#929CB2">O</Span>n <span style="color:#929CB2">Y</span>our <span style="color:#929CB2">O</span>wn  <span style="color:929CB2">(LOYO)</h2>
 
 
+
+ <!--Parents section-->
+   <div id="Parents" class="tab-pane fade">
+                    <p class="descrip">
+                        <h2 id="T-info">All the information you'll need</h2>
+                        <ul class="descrip" id="All-info">
+                            <li>Expectations</li>
+                            <ol>
+                                <li>Due to climatic conditions, we can safely fly only in the early morning hours with our primary season and most beautiful months being May through November.</li>
+                                <li> Since our launch times vary through the seasons, we ask all our guests to call ahead for the exact meeting time.</li>
+                            </ol>
+                            <br>
+                            <li>Whats different about Software
+                                <ol>
+                                    <li>High winds and/or inclement weather prevent us from flying. We ask all our guests to contact us in the early afternoon prior to their scheduled flight between 12:00 noon and 2:00 p.m.</li>
+                                    <li>To verify that the forecasted weather conditions will allow their balloon flight.</li>
+                                </ol>
+                                <br>
+                                <li>Opportunities Your child will recive</li>
+                                <ol>
+                                    <li>Our actual flight time is approximately one to one and a half hours averaging closer to one and a half hours and we suggest to allow three to three and a half hours for the entire adventure.</li>
+                                </ol>
+                                <li>Participation</li>
+
+                                <ol>
+                                    <li>We encourage all of our guests, if they wish, to participate in both the inflation and deflation of the balloon. We have found it adds greatly to the fun of the entire ballooning experience.</li>
+                                </ol>
+                        </ul>
+                    </p>
+                </div>
 
 
 </body>
