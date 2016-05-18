@@ -40,7 +40,7 @@
             text-align: center;
             font-family: 'Lobster Two', cursive;
             font-size: 22px;
-            background-color: #FFE3DD;
+            background-color: #579cea;
             color: 'div';
             padding: 5px;
         }
@@ -55,9 +55,26 @@
             letter-spacing: 2px;
         }
         
-        h4 {
-            font-size: 22px;
-            color: #8E90C9;
+        ul {
+            text-align: center;
+        }
+        
+        .move {
+            letter-spacing: 2px;
+            font-size: 32px;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            animation: mymove 3s infinite;
+        }
+        
+        @keyframes mymove {
+            from {
+                left: 0px;
+            }
+            to {
+                left: 150px;
+            }
         }
         
         h1 {
@@ -70,21 +87,28 @@
         h2 {
             font-family: 'Lobster Two', cursive;
             font-size: 28px;
-            color: #9CABCC;
+            color: #2d83c3;
             letter-spacing: 2px;
         }
         
         h3 {
             font-family: 'Lobster Two', cursive;
             font-size: 28px;
-            color: #9CABCC;
+            color: #2d83c3;
             letter-spacing: 3px;
         }
+        
+        .carousel-inner > .item > img,
+        .carousel-inner > .item > a > img {
+            width: 70%;
+            margin: center;
+        }
+        
+        h4 {
+            font-size: 22px;
+            color: #8E90C9;
+        }
     </style>
-
-
-
-
     </script>
 
     <!-- Latest compiled JavaScript -->
@@ -120,9 +144,7 @@
                     <li>
                         <a data-toggle="tab" href="#Parents"> <span class="glyphicon glyphicon-apple"></span> Parents</a>
                     </li>
-                    <li>
-                        <a data-toggle="tab" href="#Administrators"> <span class="glyphicon glyphicon-file"></span>Adminisrators</a>
-                    </li>
+
                     <li>
                         <a data-toggle="tab" href="#Projects"> <span class="glyphicon glyphicon-book"></span>Projects</a>
                     </li>
@@ -140,53 +162,81 @@
 
             <div class="tab-content">
                 <div id="Home" class="tab-pane fade in active">
-                    <span style="color:#B29089">The </span><span style="color:#B29089">experince  </span><span style="color:#B29089">of </span><span style="color:#B29089">a </span><span style="color:#B29089">Software</span><span style="color:#B29089">Student</span>
-                    <span style="color:#B29089">in </span><span style="color:#B29089">HSTAT</span>
+                    <img src="sepLogo.png" alt="SEP LOGO" style="width:124px;height:128px;">
+                    <br>
+                    <span class="move" style="color:#2d83c3">The </span><span class="move" style="color:#2d83c3">experince  </span><span class="move" style="color:#2d83c3">of </span><span class="move" style="color:#2d83c3">a </span><span class="move"
+                    style="color:#2d83c3">Software</span><span class="move" style="color:#2d83c3">Student</span>
+
+                    <span class="move" style="color:#2d83c3">in </span><span class="move" style="color:#2d83c3">HSTAT</span>
+                    <br>
+
                     <h1> Throughout this guide you will learn tips and opportunities HSTAT gives you. You will also see Testimonials from some of our classmates </h1>
                     <h2>You'll learn how to embedded a portfolio, Collaborate with your partners,<span style="color:#929CB2"> L</Span>earn <span style="color:#929CB2">O</Span>n <span style="color:#929CB2">Y</span>our <span style="color:#929CB2">O</span>wn  <span style="color:929CB2">(LOYO)</h2>
                     <p class="descrip" id="fun">
                     </p>
+                    <img src="IMG_3196.JPG" width="370" height="250">
+
+                    <p>First off, we would like to thank the administrators of HSTAT and Mr.Mueller for giving us the opportunity to be in this software class it has made us figure out our path for the future
+                        <br> -SEP11</p>
                     <div class="img">
                         <a target="_blank" href="img_fjords.jpg">
                             <img src="Freshmenyear.jpg" alt="Freshmen Year" width="300" height="250">
                         </a>
-                        <div class="desc">Freshmen Year We went to visit credit to Marilyn Codero </div>
+                        <div class="desc">
+                            <h4>Freshmen Year We went to visit Detroit credit to Marilyn Codero </h4></div>
                     </div>
                 </div>
+
                 <!--begining of Students section-->
                 <div id="Students" class="tab-pane fade">
                     <p class="descrip">
-                        <h2 id="T-info"><u>Students Section</u></h2>
+                        <h2 style="color:#125cb0" id="T-info"><u>Students Section</u></h2>
+
                         <ul class="descrip" id="All-info">
-                            <h3><u>Tips</u></h3>
-                            <h4> <li>BE ON TIME</li></h4>
-                            <h4><li>Done is better than PERFECT</li></h4>
-                            <h4><li>Explore W3schools bootstrap all the websites that will be given to you </li></h4>
-                            <h4><li>Use Key board shortcuts</li></h4>
-                            <h4><li>Do not Procasinate </li></h4>
-                            <h4><li>Write comments it will help you out alot </li></h4>
-                            <h4><li>Git STATUS is your best friend</li></h4>
+                            <h3><u>Tips <span class="glyphicon glyphicon-thumbs-up"></span></u></h3>
+                            <h4>1. BE ON TIME</h4>
+
+                            <h4>2.Have Fun</h4>
+
+                            <h4>3.Done is better than PERFECT</h4>
+
+                            <h4>4.Explore W3schools bootstrap all the websites that will be given to you </h4>
+
+                            <h4>5.Use Key board shortcuts</h4>
+
+                            <h4>6.Do not Procasinate </h4>
+
+                            <h4>7.Write comments it will help you out for future reference </h4>
+
+                            <h4>8.Git STATUS is your best friend when using c9</h4>
+
+                            <h4>9.When working in groups make sure you split up the work</h4>
                             <br>
-                            <h3><u>Projects</u></h3>
+                            <img src="FirstPSEP11.JPG" width="370" height="250">
                             <br>
-                            <h3><u>Opportunities</u></h3>
+
+                            <h3><u>Opportunities</u> <span class="glyphicon glyphicon-road"> </h3>
                             <h4> Hackaton </h4>
                             <h4>Trips to Google, Aim and many more other big large companies</h4>
                             <h4>Pthfinders Internship</h4>
                             <h4>Summer Programs</h4>
                             <h4>Year End Showcase</h4>
+                            <img src="Fair.JPG" width="370" height="250">
                             <br>
-                            <h3><u>Testimonials</u></h3>
-                            <h4>Marilyn Codero</h4>
-                            <h4>Ashley Toro</h4>
-                            
-                            <h3><u>Graded Inforation</u></h3>
 
+                            <h3><u>Testimonials</u></h3>
+                            <h4>Marilyn Codero-"Software is a challenging class it can be stressfull but its really fun"</h4>
+                            <h3><u>GradedInforation</u> <span class="glyphicon glyphicon-blackboard"></h3>
                             <H4>Assements=50%</h4>
                             <h4>Classwork Participation=30%</h4>
+                            <H4>Partner Partner evaluation:40%</H4>
                             <h4>Homework=20%</h4>
 
-
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%  ">90% of the students have an average of a 90-100+
+                                    <span class="sr-only"></span>
+                                </div>
+                            </div>
                         </ul>
                     </p>
                 </div>
@@ -196,67 +246,91 @@
                 <!--Parents section-->
                 <div id="Parents" class="tab-pane fade">
                     <p class="descrip">
-                        <h2 id="T-info">All the information you'll need</h2>
+
                         <ul class="descrip" id="All-info">
-                            <h3>Expectations</h3>
-                            <li></li>
+                            <h3 style="color:#125cb0">Expectations<span class="glyphicon glyphicon-bookmark"></span></h3>
+                            <p>
+                                Your children will be required to give 100% in time and in dedication.
+                            </p>
 
                             <br>
-                            <h3>Whats different about Software</h3>
-
-                            <li>You get to explore the internet</li>
-                            <li> Fix codes</li>
-                            <li> Have ther ability to change the world just by using code</li>
-
+                            <h3>Whats different about Software Engineering?  </h3>
+                            <p>
+                                <ol style="color: #9CABCC">You'll get to learn different types of Languages</ol>
+                                <ol style="color: #9CABCC"> Fix codes</ol>
+                                <ol style="color: #9CABCC"> Have the ability to change the world just by using code</ol>
+                                <ol style="color: #9CABCC"> You'll learn on your own</ol>
+                                <ol style="color: #9CABCC">You'll be able to make cool projects</ol>
+                                <ol style="color: #9CABCC"> It's a challenging elective</ol>
+                            </p>
                             <br>
                             <h3>Opportunities Your child will recive</h3>
-                            <ol>
-                                <li>Trips to Google, Aim and many other large companies </li>
 
-                                <h3>Participation</h3>
-                        </ul>
-                    </p>
+                            <p>1.Trips to Google, Aim, Square Space,etc </p>
+
+                            <p>2.Have experience in using computers</p>
+
+                            <p>3.Learn Different types of Languages</p>
+
+                            <p>4.Being able to collaborate with other students to create amazing projects</p>
+
+                            <p>5.Meet people from large Computer companies</p>
+
+                            <p>6.Having the opportunities to recieve internships</p>
+
+                            <h3>Explore Some of Our Peer's Portflio </h3>
+
+
+
+                            <div>
+                                <p>
+                                    <a href="https://sites.google.com/a/hstat.org/junh4533sep11/home" style="color: #9CABCC">Jun's Portfolio </a>
+                                    <br>
+                                    <a href="https://sites.google.com/a/hstat.org/mariac7185sep11/home" style="color: #9CABCC">Maria's Portflio</a>
+                                    <br>
+                                    <a href="https://sites.google.com/a/hstat.org/marilync8866sep11/home" style="color: #9CABCC">Marilyn's Portfolio</a>
+                                    <br>
+                                    <a href="https://sites.google.com/a/hstat.org/enriquev8884sep11/home" style="color: #9CABCC">Enrique's Portfolio</a>
+                                    <br>
+                                    <a href="https://sites.google.com/a/hstat.org/stellal5059sep11/home" style="color: #9CABCC">Stella's Portfolio</a></h4>
+                                    <br>
+                                    <a href="https://sites.google.com/a/hstat.org/ahmeda1955sep11/home" style="color: #9CABCC">Ahmed's Portfolio</a>
+                                    <br>
+                                </p>
+                            </div>
+                            <img src="google.jpg" width="75" height="50">
+
+                            <img src="Deloitte.jpg" width="75" height="50>" </div>
+                            <!--end of parent section -->
                 </div>
-                <!--end of parent section -->
-
-
-
-                <!--Administrators section-->
-                <div id="Administrators" class="tab-pane fade">
-                    <p class="descrip">
-                        <h2 id="T-info">Administrators</h2>
-                        <ul class="descrip" id="All-info">
-                            <li>Expectations</li>
-                            <ul class="descrip" id="All-info">
-                                <ol>
-                                    <li> Projects are what you'll have to do in order to show your progress in class.</li>
-
-                                    <li>You'll have to show what you've learned and may use resources </li>
-                                    <ol> for example these codes these projects are some that we have done in class </ol>
-
-
-                                    <li> You can tell that these projects are creative ! </li>
-                                </ol>
-                </div>
-                <!--Administrators section end -->
 
                 <!--Projects section-->
                 <div id="Projects" class="tab-pane fade">
                     <p class="descrip">
-                        <h2 id="T-info">Projects</h2>
+                        <h2 class="topic" id="T-info">Projects</h2>
                         <ul class="descrip" id="All-info">
 
-                            <li> These projects were  based on what the students have been learning </li>
-                           
-                    <div class="image">
-                        <image src ="project#1.jpg" width="300" height="250">
-                        
-                        
-                        
-                        
-                        
-                    </div>
+                            <h3>In this section you wil be able to see some of our Projects throughout the 9th grade.</h3>
+                            <img src="code.jpg" width="370" height="250">
+                            <h2>9th Grade</h2>
+                            <h4><u>Scratch</u></h4>
+                            <p><li>Is when you</li></p>
+                            <h4><u>Robotics</u></h4>
+                            <p><li>Is when you</li></p>
+                            <h2>10th Grade</h2>
+                            <h4><u>Proccessing</u></h4>
+                            <p><li>Is when you</li></p>
+                            <h4><u>Arduino</u></h4>
+                            <p><li>Is when you</li></p>
+                            <h4><u>Data</u></h4>
+                            <p><li>Is when you</li></p>
+                            <h2>11th Grade</h2>
+                            <h4><U> Web Design</u></h4>
+                            <p><li>Is when you</li></p>
+                            <a href="https://ahmeda1955.github.io/internet-down/" style="color: #9CABCC">Ahmed's Web Design Project Ft. Fabio Velazquez</a>
+                            <h4><u>Git & Github</u></h4>
                             
+<<<<<<< HEAD
                   <p>Through out Each topic you'll learn the basics and start building your way back to a more fun way of showing your learning skills into a project    </p>
 
                      <h1>Web Design</h1>          
@@ -276,11 +350,16 @@
                            <ul>Throughout each project you do a portfolio is expected to show your classmates what your project looks like and 
                            to see what inspired you to make your project look that certain way and what kind of challenges you  had within coding </ul>
                 
+=======
+                            <a href="https://github.com/junh4533/zombie/blob/master/README.md" style="color:#9CABCC">Jun's Zombie Apocalyspse</a>
+>>>>>>> 3520b05b131af3f8a1e0658057bcef3c6915a2b8
 
+                    </p>
+                </div>
             </div>
-                              
-                            
+
             <!--End of project section-->
 
+</body>
 
 </html>
